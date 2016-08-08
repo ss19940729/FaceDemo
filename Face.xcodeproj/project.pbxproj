@@ -14,6 +14,8 @@
 		223A3D7F1D5462FF00A87188 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 223A3D7D1D5462FF00A87188 /* LaunchScreen.storyboard */; };
 		223A3D8A1D54630000A87188 /* FaceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 223A3D891D54630000A87188 /* FaceTests.swift */; };
 		223A3D951D54630000A87188 /* FaceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 223A3D941D54630000A87188 /* FaceUITests.swift */; };
+		223A3DA31D54635000A87188 /* FaceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 223A3DA21D54635000A87188 /* FaceView.swift */; };
+		226280401D586234000252B3 /* Expression.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2262803F1D586234000252B3 /* Expression.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		223A3D901D54630000A87188 /* FaceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FaceUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		223A3D941D54630000A87188 /* FaceUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceUITests.swift; sourceTree = "<group>"; };
 		223A3D961D54630000A87188 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		223A3DA21D54635000A87188 /* FaceView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FaceView.swift; sourceTree = "<group>"; };
+		2262803F1D586234000252B3 /* Expression.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Expression.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,8 @@
 				223A3D7B1D5462FF00A87188 /* Assets.xcassets */,
 				223A3D7D1D5462FF00A87188 /* LaunchScreen.storyboard */,
 				223A3D801D5462FF00A87188 /* Info.plist */,
+				223A3DA21D54635000A87188 /* FaceView.swift */,
+				2262803F1D586234000252B3 /* Expression.swift */,
 			);
 			path = Face;
 			sourceTree = "<group>";
@@ -193,6 +199,7 @@
 				TargetAttributes = {
 					223A3D701D5462FF00A87188 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = DA9X37GALQ;
 					};
 					223A3D841D54630000A87188 = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -258,6 +265,8 @@
 			files = (
 				223A3D771D5462FF00A87188 /* ViewController.swift in Sources */,
 				223A3D751D5462FF00A87188 /* AppDelegate.swift in Sources */,
+				223A3DA31D54635000A87188 /* FaceView.swift in Sources */,
+				226280401D586234000252B3 /* Expression.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -401,9 +410,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Face/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = Shuai.Face;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tongli.Face;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -412,9 +422,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Face/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = Shuai.Face;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tongli.Face;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -484,6 +495,7 @@
 				223A3D9B1D54630000A87188 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		223A3D9C1D54630000A87188 /* Build configuration list for PBXNativeTarget "FaceTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +504,7 @@
 				223A3D9E1D54630000A87188 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		223A3D9F1D54630000A87188 /* Build configuration list for PBXNativeTarget "FaceUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +513,7 @@
 				223A3DA11D54630000A87188 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

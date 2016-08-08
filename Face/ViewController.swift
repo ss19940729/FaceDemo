@@ -9,16 +9,37 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    var expression = Expression(brow: Expression.Brow.angry, eye: Expression.Eye.close, mouth: Expression.Mouth.normal){
+        didSet{
+         updateUI()
+        }
+    }
+    
+   
 
+    @IBOutlet weak var faceView: FaceView!{
+        didSet{
+         
+        }
+    
+    }
+   
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        faceView.backgroundColor = UIColor.redColor()
+        faceView.expression = expression
+        expression.brow = Expression.Brow.angry
+        
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    
+    func updateUI() -> Void {
+        faceView.setNeedsDisplay()
     }
+   
 
 
 }
