@@ -16,6 +16,7 @@
 		223A3D951D54630000A87188 /* FaceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 223A3D941D54630000A87188 /* FaceUITests.swift */; };
 		223A3DA31D54635000A87188 /* FaceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 223A3DA21D54635000A87188 /* FaceView.swift */; };
 		226280401D586234000252B3 /* Expression.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2262803F1D586234000252B3 /* Expression.swift */; };
+		22B1148F1D5ACF4A00F00BFB /* FaceButtonController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B1148E1D5ACF4A00F00BFB /* FaceButtonController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		223A3D961D54630000A87188 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		223A3DA21D54635000A87188 /* FaceView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FaceView.swift; sourceTree = "<group>"; };
 		2262803F1D586234000252B3 /* Expression.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Expression.swift; sourceTree = "<group>"; };
+		22B1148E1D5ACF4A00F00BFB /* FaceButtonController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FaceButtonController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 				223A3D801D5462FF00A87188 /* Info.plist */,
 				223A3DA21D54635000A87188 /* FaceView.swift */,
 				2262803F1D586234000252B3 /* Expression.swift */,
+				22B1148E1D5ACF4A00F00BFB /* FaceButtonController.swift */,
 			);
 			path = Face;
 			sourceTree = "<group>";
@@ -264,6 +267,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				223A3D771D5462FF00A87188 /* ViewController.swift in Sources */,
+				22B1148F1D5ACF4A00F00BFB /* FaceButtonController.swift in Sources */,
 				223A3D751D5462FF00A87188 /* AppDelegate.swift in Sources */,
 				223A3DA31D54635000A87188 /* FaceView.swift in Sources */,
 				226280401D586234000252B3 /* Expression.swift in Sources */,
